@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pyae Phyo Thaw" />
+    <link rel="stylesheet" href="project1.css" />
+    <title>Project 1 - The Geometrizer</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <h1>The Geometrizer</h1>
+      <input type="text" id="radius" placeholder="Enter the radius" autofocus />
+      <div class="btn-group">
+        <button onclick="calDiameter()">Diameter</button>
+        <button onclick="calCircumference()">Circumference</button>
+        <button onclick="calArea()">Area</button>
+      </div>
+      <h3 id="answer"></h3>
+    </div>
+    <script src="project1.js"></script>
+  </body>
+</html>
